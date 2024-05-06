@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TOD</string>
+    <string name="spin">SPIN BOTTLE</string>
+    <string name="truth">Truth</string>
+    <string name="dare">Dare</string>
+    <string name="action_add">Add</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="get_pos">Enjoy the game :)</string>
+    <string name="add_truth">Add Truth</string>
+    <string name="add_dare">Add Dare</string>
+    <string name="show_hide">Options</string>
+    <string name="select_players">Select Players</string>
+    <string name="number_of_players">Number of Players: 0</string>
+
+    <!-- Array of player numbers -->
+    <string-array name="player_numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <!-- Add more numbers as needed -->
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/drawable_dialog_box_shape.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/drawable/dialog_box_shape.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/drawable_loading_icon.png.flat",
+        "source": "com.uni.truthdare.app-main-13:/drawable/loading_icon.png"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/drawable_spin.png.flat",
+        "source": "com.uni.truthdare.app-main-13:/drawable/spin.png"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/drawable_button_clicked.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/drawable/button_clicked.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/layout_activity_values.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/layout/activity_values.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/layout_activity_main.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/drawable_button_add.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/drawable/button_add.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/drawable_button_default.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/drawable/button_default.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/drawable_button_disabled.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/drawable/button_disabled.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/layout_activity_start.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/layout_custom_dialog_box.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/layout/custom_dialog_box.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/drawable_custom_button.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/drawable/custom_button.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/drawable_icon.png.flat",
+        "source": "com.uni.truthdare.app-main-13:/drawable/icon.png"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/menu_menu.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/menu/menu.xml"
+    },
+    {
+        "merged": "com.uni.truthdare.app-merged_res-11:/layout_example_card.xml.flat",
+        "source": "com.uni.truthdare.app-main-13:/layout/example_card.xml"
+    }
+]

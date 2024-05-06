@@ -1,0 +1,5 @@
+com.uni.truthdare.test.app-androidTest-0 D:\ProjectUni\app\build\generated\res\resValues\androidTest\debug
+com.uni.truthdare.test.app-androidTest-1 D:\ProjectUni\app\build\generated\res\rs\androidTest\debug
+com.uni.truthdare.test.app-mergeDebugAndroidTestResources-2 D:\ProjectUni\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.uni.truthdare.test.app-mergeDebugAndroidTestResources-3 D:\ProjectUni\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.uni.truthdare.test.app-merged_res-4 D:\ProjectUni\app\build\intermediates\merged_res\debugAndroidTest
