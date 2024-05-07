@@ -35,27 +35,38 @@ public class TruthActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
     Gson gson = new Gson();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_values);
+        // Initialize shared preferences
         sharedPreferences = getSharedPreferences("mySharedPreference", Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
+
+        // Set up the toolbar
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        // Initialize truth list and RecyclerView
         truthList = new ArrayList<>();
         recyclerViewConfig();
+
+        // Load default and user-added truths
         populateDefaultData();
         if(sharedPreferences.contains("UserTruths"))
             populateUserData(sharedPreferences.getString("UserTruths", null));
     }
 
+    // Populate default truths from Values class
     public void populateDefaultData() {
         Values values = new Values();
         for(int i=0; i<values.truths.length; i++)
             truthList.add(new TruthItem(values.truths[i]));
     }
 
+    // Populate user-added truths from SharedPreferences
     public void populateUserData(String jsonTruths) {
         String[] truths = gson.fromJson(jsonTruths, String[].class);
         for (String truth : truths) truthList.add(new TruthItem(truth));
@@ -65,7 +76,7 @@ public class TruthActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
-        adapter = new TruthAdapter(truthList);
+        adapter = new TruthAdapter(truthList, this);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
     }
@@ -76,6 +87,7 @@ public class TruthActivity extends AppCompatActivity {
         dialog.setCancelable(false);
         dialog.setContentView(R.layout.custom_dialog_box);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
         final EditText input = dialog.findViewById(R.id.editText);
         Button dismiss = dialog.findViewById(R.id.dismiss);
         Button add = dialog.findViewById(R.id.add);

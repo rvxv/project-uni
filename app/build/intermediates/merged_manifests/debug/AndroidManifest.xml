@@ -8,6 +8,8 @@
         android:minSdkVersion="23"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -39,6 +41,13 @@
         <activity
             android:name="com.uni.truthdare.MainActivity"
             android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.uni.truthdare.PhotoUploadActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

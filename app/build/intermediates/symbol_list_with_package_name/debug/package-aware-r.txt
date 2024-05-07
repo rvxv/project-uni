@@ -814,6 +814,7 @@ id end
 id expand_activities_button
 id expanded_menu
 id forever
+id gallery_image
 id gone
 id group_divider
 id groups
@@ -860,6 +861,7 @@ id recyclerView
 id right
 id right_icon
 id right_side
+id save_button
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -917,6 +919,7 @@ id truth
 id unchecked
 id uniform
 id up
+id upload_button
 id useLogo
 id withText
 id wrap
@@ -962,6 +965,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_photo_upload
 layout activity_start
 layout activity_values
 layout custom_dialog

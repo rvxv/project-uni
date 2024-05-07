@@ -81,7 +81,7 @@ public class StartActivity extends AppCompatActivity {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("Select Number of Players");
 
-            final String[] playerNumbers = {"1", "2", "3", "4"}; // Example player numbers
+            final String[] playerNumbers = {"2", "3", "4", "5", "6", "7", "8", "9", "10"}; // Example player numbers
 
             builder.setItems(playerNumbers, new DialogInterface.OnClickListener() {
                 @Override

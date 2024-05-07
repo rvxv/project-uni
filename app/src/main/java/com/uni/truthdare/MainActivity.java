@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -76,11 +77,12 @@ public class MainActivity extends AppCompatActivity {
     public void spin(View view) {
         int numberOfPlayers = getIntent().getIntExtra("NUMBER_OF_PLAYERS", 4); // Default value is 4
         int anglePerPlayer = 360 / numberOfPlayers;
-        int newDirection = random.nextInt(360); // Random angle within 360 degrees
+        int newDirection = random.nextInt(5400); // Random angle within 360 degrees
         int rotationAngle = newDirection / anglePerPlayer * anglePerPlayer; // Adjusted rotation angle
 
         float pivotX = imgView.getWidth() / 2;
         float pivotY = imgView.getHeight() / 2;
+
         Animation rotate = new RotateAnimation(lastDirection, rotationAngle, pivotX, pivotY);
         rotate.setDuration(2000);
         rotate.setFillAfter(true);
